@@ -1,0 +1,24 @@
+.App {
+  @apply text-center;
+
+  .header {
+    @apply bg-dark-blue
+    flex
+    flex-col
+    items-center
+    justify-center
+    min-h-screen
+    text-3xl
+    text-white;
+  
+    .logo {
+      @apply animate-spin-slow
+      h-96
+      pointer-events-none;
+    }
+
+    .link {
+      @apply text-light-blue
+    }
+  }
+}
